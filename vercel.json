@@ -1,0 +1,10 @@
+app_name = "gym-management"
+
+[build]
+command = "cd frontend && npm install && npm run build"
+output = "frontend/dist"
+
+[[redirects]]
+source = "/api/(.*)"
+destination = "/api/$1"
+status = 200

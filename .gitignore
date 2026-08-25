@@ -2,5 +2,8 @@ node_modules/
 __pycache__/
 *.pyc
 .env
-frontend.zip
 *.zip
+*.db
+.vite/
+dist/
+.vercel/
